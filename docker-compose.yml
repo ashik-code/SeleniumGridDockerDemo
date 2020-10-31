@@ -1,0 +1,22 @@
+seleniumhub:
+ image: selenium/hub
+ ports:
+  - 4444:4444
+
+chromenodedebug:
+ image: selenium/node-chrome-debug
+ ports:
+  - 8001:5900
+ links:
+  - seleniumhub
+ environment:
+  HUB_HOST: seleniumhub
+
+firefoxnodedebug:
+ image: selenium/node-firefox-debug
+ ports:
+  - 8002:5900
+ links:
+  - seleniumhub
+ environment:
+  HUB_HOST: seleniumhub

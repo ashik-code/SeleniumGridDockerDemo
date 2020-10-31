@@ -1,0 +1,7 @@
+com\guru99\demo\pages\ManagerHomePage.class
+com\guru99\demo\tests\BasicTests.class
+com\guru99\demo\pages\CustomerRegMsg.class
+com\guru99\demo\utilities\ReadData.class
+com\guru99\demo\tests\AddCustomerPageTest.class
+com\guru99\demo\pages\IndexPage.class
+com\guru99\demo\pages\AddCustomerPage.class
